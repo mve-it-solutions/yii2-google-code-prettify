@@ -1,3 +1,5 @@
+# Please do not download yet, stil in dev mode...
+
 # Yii2 Google Code Prettify
 
 Yii2 Code syntax highlighter using **[Google Code Prettify](https://github.com/google/code-prettify)**
