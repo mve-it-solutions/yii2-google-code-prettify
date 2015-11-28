@@ -1,0 +1,21 @@
+{
+    "name": "mve-it-solutions/yii2-google-code-prettify",
+    "description": "Yii2 Code syntax highlighter using Google Code Prettify",
+    "type": "yii2-extension",
+    "keywords": ["yii2"," google code prettify"," code syntax highlighter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michel van Es",
+            "email": "development@mvedesigns.eu"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mveitsolutions\\googlecodeprettify\\": ""
+        }
+    }
+}
