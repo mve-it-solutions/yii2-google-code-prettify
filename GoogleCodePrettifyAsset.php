@@ -8,7 +8,7 @@ class GoogleCodePrettifyAsset extends AssetBundle
 {
     public static $options = [];
     
-    public $sourcePath = '@vendor/mveitsolutions/yii2-google-code-prettify/assets';
+    public $sourcePath = '@vendor/mve-it-solutions/yii2-google-code-prettify/assets';
     public $js = ['js/prettify.js'];
     public $css = ['css/prettify.css'];
     public $depends = ['yii\web\JqueryAsset'];
@@ -26,7 +26,8 @@ class GoogleCodePrettifyAsset extends AssetBundle
 
     /**
      * @param \yii\web\View $view
-     * @param string $sStyle
+     * @param object oView (The view to be registered with)
+     * @param array aOptions (style, lineNums and autoAddPreClasses)
      * @return static
      */
     public static function register($oView, $aOptions=[])
