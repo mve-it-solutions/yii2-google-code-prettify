@@ -37,15 +37,15 @@ To use this extension add below to your main layout:
 	
 **style**
 	Google Code Prettify Skin
-	Options: desert, doxy, prettify, sons-of-obsidian, sunburst or simple
+Options: desert, doxy, prettify, sons-of-obsidian, sunburst or simple
 	
 **lineNums**
 	Put line numbers on every line
-	Options: true or false
+Options: true or false
 	
 **autoAddPreClasses**
 	Automatically add classes to every pre tag
-	Options: true or false
+Options: true or false
 
 ## License
 
